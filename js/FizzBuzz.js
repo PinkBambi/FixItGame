@@ -15,9 +15,9 @@
  * I'll start ^ ^ /PinkBambi
  */
 
-$("#enterTheNumber").click(function() { //Finds the button and listens to a click.
+$("#ButFizzBuzz").click(function() { //Finds the button and listens to a click.
     //$('#answer').html($('input:text').val());   //Get the input and write it on page. Not needed but good to have as an example.
-    var playground = $('#playground').val(); //Get the input and asign a variable.
+    var playground = $('#PGFizzBuzz').val(); //Get the input and asign a variable.
     /************ Do not change above code ************/
 
     if (playground === "3") writeAnswer = "Fizz";
@@ -26,7 +26,7 @@ $("#enterTheNumber").click(function() { //Finds the button and listens to a clic
     else writeAnswer = "Not fixed" ;
 
     /************************/
-$("#answer").append(writeAnswer);
+$("#answerFizzBuzz").append(writeAnswer);
 });
 
 /*
