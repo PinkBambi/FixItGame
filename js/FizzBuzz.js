@@ -17,10 +17,12 @@
 
 $("#enterTheNumber").click(function() { //Finds the button and listens to a click.
     //$('#answer').html($('input:text').val());   //Get the input and write it on page. Not needed but good to have as an example.
-    var playground = $('#playground').val(); //Get the input and aasign a variable.
+    var playground = $('#playground').val(); //Get the input and asign a variable.
     /************ Do not change above code ************/
 
     if (playground === "3") writeAnswer = "Fizz";
+    else if (playground === "5") writeAnswer = "Buzz";
+
     else writeAnswer = "Not fixed" ;
 
     /************************/
@@ -30,7 +32,7 @@ $("#answer").append(writeAnswer);
 /*
  * Bellow these lines is the space for problems/quests.
  * Write down a problem/quest the same way I have done.
- * This is so that we ceep track of what we have done so far. Don't forget to write this in chronical order.
+ * This is so that we keep track of what we have done so far. Don't forget to write this in chronological order.
  * Just before these info-lines is the space for the solution code.
  * I'll call the computer-anwers on the input numbers BERT. xD
  */
@@ -39,7 +41,7 @@ $("#answer").append(writeAnswer);
 // Answer: Say Fizz It's divisible by 3
 
 //2 Assigned: FJ (freddejson) | What should Bert do if the number is 5?
-// Answer:
+// Answer: Say Buzz It's divisible by 5
 
-//2 Assigned: AE (AliensExist) |
+//3 Assigned: AE (AliensExist) | What should Bert do if the number is 9?
 // Answer:
