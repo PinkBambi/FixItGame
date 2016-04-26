@@ -20,7 +20,8 @@ $("#enterTheNumber").click(function() { //Finds the button and listens to a clic
     var playground = $('#playground').val(); //Get the input and aasign a variable.
     /************ Do not change above code ************/
 
-
+    if (playground === "3") writeAnswer = "Fizz";
+    else writeAnswer = "Not fixed" ;
 
     /************************/
 $("#answer").append(writeAnswer);
@@ -33,3 +34,12 @@ $("#answer").append(writeAnswer);
  * Just before these info-lines is the space for the solution code.
  * I'll call the computer-anwers on the input numbers BERT. xD
  */
+
+//1 Assigned: PB (PinkBambi) | What should Bert do if the number is 3?
+// Answer: Say Fizz It's divisible by 3
+
+//2 Assigned: FJ (freddejson) | What should Bert do if the number is 5?
+// Answer:
+
+//2 Assigned: AE (AliensExist) |
+// Answer:
