@@ -21,6 +21,8 @@ $("#ButISpy").click(function() { //Finds the button and listens to a click.
     var playground = $('#PGISpy').val(); //Get the input and asign a variable.
     /************ Do not change above code ************/
 
+    if (playground === "green") writeAnswer = "Kitchen Glove?";
+    else writeAnswer = "Not fixed" ;
 
     /*****************************/
     $("#answerISpy").append(writeAnswer);
@@ -33,3 +35,9 @@ $("#ButISpy").click(function() { //Finds the button and listens to a click.
  * Just before these info-lines is the space for the solution code.
  * I'll call the computer-anwers on the input numbers BERT. xD
  */
+
+ //1 Assigned: PB (PinkBambi) | What could Bert guess at if the color written was green?
+ // Answer: Kitchen Glove
+
+ //2 Assigned: PB (freddejson) | What could Bert guess at if the color written was red?
+ // Answer:
