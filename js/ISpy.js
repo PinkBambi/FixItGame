@@ -23,6 +23,7 @@ $("#ButISpy").click(function() { //Finds the button and listens to a click.
 
     if (playground === "green") writeAnswer = "Kitchen Glove?";
     else if (playground === "red") writeAnswer = "Fire distinguisher?";
+    else if (playground === "brown") writeAnswer = "Bread?";
     else writeAnswer = "Not fixed" ;
 
     /*****************************/
@@ -40,8 +41,11 @@ $("#ButISpy").click(function() { //Finds the button and listens to a click.
  //1 Assigned: PB (PinkBambi) | What could Bert guess at if the color written was green?
  // Answer: Kitchen Glove
 
- //2 Assigned: PB (freddejson) | What could Bert guess at if the color written was red?
+ //2 Assigned: FJ (freddejson) | What could Bert guess at if the color written was red?
  // Answer: Fire distinguisher
 
  //3 Assigned PB (PinkBambi) | What could Bert guess at if the color written was brown?
+ // Answer: Bread?
+
+ //4 Assigned FJ (freddejson) | Does Bert understand Versiles? Would he understand if I wrote ReD and wanted him to understand it as red?
  // Answer:
