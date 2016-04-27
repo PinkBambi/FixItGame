@@ -22,6 +22,7 @@ $("#ButISpy").click(function() { //Finds the button and listens to a click.
     /************ Do not change above code ************/
 
     if (playground === "green") writeAnswer = "Kitchen Glove?";
+    else if (playground === "red") writeAnswer = "Fire distinguisher?";
     else writeAnswer = "Not fixed" ;
 
     /*****************************/
@@ -40,4 +41,7 @@ $("#ButISpy").click(function() { //Finds the button and listens to a click.
  // Answer: Kitchen Glove
 
  //2 Assigned: PB (freddejson) | What could Bert guess at if the color written was red?
+ // Answer: Fire distinguisher
+
+ //3 Assigned PB (PinkBambi) | What could Bert guess at if the color written was brown?
  // Answer:
