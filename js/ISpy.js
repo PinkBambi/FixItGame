@@ -64,3 +64,6 @@ function HeWasRightISpy() {
 
 //5 Assigned PB (PinkBambi) | How would the correct answer be stored and called upon if Bert guessed the right answer?
 // Answer: You who writes the color know what you are thinking of. The computer is supposed to guess and you need to tell him when he's right.
+
+//6 Assigned FJ (freddejson) | It looks boring playing with Bert. Make it more stylish. 
+// Answer:
