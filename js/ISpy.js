@@ -21,10 +21,12 @@ $("#ButISpy").click(function() { //Finds the button and listens to a click.
     var playground = $('#PGISpy').val(); //Get the input and asign a variable.
     /************ Do not change above code ************/
 
-    if (playground === "green") writeAnswer = "Kitchen Glove?";
-    else if (playground === "red") writeAnswer = "Fire distinguisher?";
-    else if (playground === "brown") writeAnswer = "Bread?";
-    else writeAnswer = "Not fixed" ;
+    var clue = playground.toLowerCase(); //Transforms all 'clue' results to lower case, just like they are below
+
+    if (clue === "green") writeAnswer = "Kitchen Glove?";
+    else if (clue === "red") writeAnswer = "Fire distinguisher?";
+    else if (clue === "brown") writeAnswer = "Bread?";
+    else writeAnswer = "Not fixed";
 
     /*****************************/
     $("#answerISpy").append(writeAnswer);
@@ -48,4 +50,7 @@ $("#ButISpy").click(function() { //Finds the button and listens to a click.
  // Answer: Bread?
 
  //4 Assigned FJ (freddejson) | Does Bert understand Versiles? Would he understand if I wrote ReD and wanted him to understand it as red?
- // Answer:
+ // Answer: Now he does, although the 'clue === red' has to be lowercase to work.
+
+ //5 Assigned PB (PinkBambi) | How would the correct answer be stored and called upon if Bert guessed the right answer?
+ // Answer: 
