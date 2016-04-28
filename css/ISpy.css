@@ -1,0 +1,7 @@
+.horizontalDiv {
+  width: 600px;
+    overflow: hidden;
+}
+.horizontalDiv>div {
+  float: left;
+}

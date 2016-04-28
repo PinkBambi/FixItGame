@@ -20,13 +20,17 @@
         <br><br>
 
         <h3>I Spy</h3>
-        <input id="PGISpy" type="text"/>
-        <button id="ButISpy" type="button" name="AskBertISpy">Guess what this thing is, Bert</button><br><br>
+        <div class="horizontalDiv"><div><button id="ButISpy" type="button" onclick="AskBertISpy()">I spy with my little eye something...</button></div>
+        <div><input id="PGISpy" type="text"/></div></div><br>
         <div id="answerISpy">Bert guesses: </div>
+        <br>
+        <button type="button" onclick="HeWasRightISpy()">Good job Bob! That was exactly what I was thinking of!</button><br><br>
+        <div class="horizontalDiv"><div>Bert has gessed right &nbsp</div><div id="RightGuessesCount">0</div><div>&nbsp times.<div></div>
 
         <!-- Here is where coding ends. Let everything below stay as it is. -->
     </div>
     <script src="js/jquery-1.12.3.min.js"></script>
+    <script src="js/angular.min.js"></script>
     <script src="js/FizzBuzz.js"></script>
     <script src="js/ISpy.js"></script>
 </body>

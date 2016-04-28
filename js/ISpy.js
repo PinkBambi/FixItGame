@@ -26,12 +26,22 @@ $("#ButISpy").click(function() { //Finds the button and listens to a click.
     if (clue === "green") writeAnswer = "Kitchen Glove?";
     else if (clue === "red") writeAnswer = "Fire distinguisher?";
     else if (clue === "brown") writeAnswer = "Bread?";
-    else writeAnswer = "Not fixed";
+    else writeAnswer = "Dont know";
 
     /*****************************/
     $("#answerISpy").append(writeAnswer);
 });
+/*****************************/
+function AskBertISpy() {
+    document.getElementById("answerISpy").innerHTML = "Bert guesses: ";
+}
+var clicks = 0;
 
+function HeWasRightISpy() {
+    document.getElementById("answerISpy").innerHTML = "Bert guesses: ";
+    clicks += 1;
+    document.getElementById("RightGuessesCount").innerHTML = clicks;
+}
 /*
  * Bellow these lines is the space for problems/quests.
  * Write down a problem/quest the same way I have done.
@@ -40,17 +50,17 @@ $("#ButISpy").click(function() { //Finds the button and listens to a click.
  * I'll call the computer-anwers on the input numbers BERT. xD
  */
 
- //1 Assigned: PB (PinkBambi) | What could Bert guess at if the color written was green?
- // Answer: Kitchen Glove
+//1 Assigned: PB (PinkBambi) | What could Bert guess at if the color written was green?
+// Answer: Kitchen Glove
 
- //2 Assigned: FJ (freddejson) | What could Bert guess at if the color written was red?
- // Answer: Fire distinguisher
+//2 Assigned: FJ (freddejson) | What could Bert guess at if the color written was red?
+// Answer: Fire distinguisher
 
- //3 Assigned PB (PinkBambi) | What could Bert guess at if the color written was brown?
- // Answer: Bread?
+//3 Assigned PB (PinkBambi) | What could Bert guess at if the color written was brown?
+// Answer: Bread?
 
- //4 Assigned FJ (freddejson) | Does Bert understand Versiles? Would he understand if I wrote ReD and wanted him to understand it as red?
- // Answer: Now he does, although the 'clue === red' has to be lowercase to work.
+//4 Assigned FJ (freddejson) | Does Bert understand Versiles? Would he understand if I wrote ReD and wanted him to understand it as red?
+// Answer: Now he does, although the 'clue === red' has to be lowercase to work.
 
- //5 Assigned PB (PinkBambi) | How would the correct answer be stored and called upon if Bert guessed the right answer?
- // Answer: 
+//5 Assigned PB (PinkBambi) | How would the correct answer be stored and called upon if Bert guessed the right answer?
+// Answer: You who writes the color know what you are thinking of. The computer is supposed to guess and you need to tell him when he's right.
