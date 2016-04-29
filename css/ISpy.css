@@ -5,3 +5,82 @@
 .horizontalDiv>div {
   float: left;
 }
+
+/* 
+Container -                 edits everything 
+h3  -                       Fizz Buzz header
+input -                     Input text
+button#ButFizzBuzz -        Ask Bert button
+
+
+
+
+*/
+
+body {
+    /*background-image: url("http://news.hullfire.com/wp-content/uploads/2015/03/dome1.jpg");*/
+}
+
+#GameFizzBuzz {
+
+}
+
+h3 { 
+
+    font-size: 25px;
+}
+
+input {
+    border: 1px solid black;
+    width: 200px;
+}
+
+button#ButFizzBuzz {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 200px;
+    margin-top: 6px;
+}
+
+#answerFizzBuzz {
+
+}
+
+#GameISpy {
+    
+}
+
+button#ButISpy {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 290px;
+}
+
+input#PGISpy {
+    width: 290px;
+}
+
+button#RightAnswer {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 290px;
+    margin-top: 6px;
+}

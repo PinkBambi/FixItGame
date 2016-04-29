@@ -43,7 +43,7 @@ function HeWasRightISpy() {
     document.getElementById("RightGuessesCount").innerHTML = clicks;
 }
 /*
- * Bellow these lines is the space for problems/quests.
+ * Below these lines is the space for problems/quests.
  * Write down a problem/quest the same way I have done.
  * This is so that we keep track of what we have done so far. Don't forget to write this in chronological order.
  * Just before these info-lines is the space for the solution code.
@@ -66,4 +66,4 @@ function HeWasRightISpy() {
 // Answer: You who writes the color know what you are thinking of. The computer is supposed to guess and you need to tell him when he's right.
 
 //6 Assigned FJ (freddejson) | It looks boring playing with Bert. Make it more stylish. 
-// Answer:
+// Answer: Oh, stylish you say?
