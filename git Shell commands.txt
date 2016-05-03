@@ -1,27 +1,29 @@
 Good commands to know for your cmd: (I have two that I can't find the explanation for. will do it later)
 
-cd ..                   |= Jump out of your folder.
-cd #nameOfFolder# 	|= Jump to chosen folder in the folder you are in.
-mkdir #nameOfNewFolder# 		|= Create a new folder.
-git init 				|= Initialize an empty Git repository.
-start . 				|= opends the folder
-exit	 				|= close the cmd.
+cd ..                                   |= Jump out of your folder.
+cd #nameOfFolder# 	                    |= Jump to chosen folder in the folder you are in.
+mkdir #nameOfNewFolder# 		            |= Create a new folder.
+git init 				                        |= Initialize an empty Git repository.
+start . 				                        |= opends the folder
+exit	 				                          |= close the cmd.
 
-git log 				|= Show all commits.
-git log -p				-|= Shaaameee to your cow, Don't remember what the p is for. Will look it up.
+git log 				                        |= Show all commits.
+git log -p				                     -|= Shaaameee to your cow, Don't remember what the p is for. Will look it up.
 
-git add #nameOfFile#			|= Add changes to the chosen file.
-git add .				|= Add changes to all files.
+git add #nameOfFile#			              |= Add changes to the chosen file.
+git add .				                        |= Add changes to all files.
 
-git commit -am				|= Create a commit with a message. (-a can be used instead of git add)
-git commit -m				|= Create a commit with a message.
-git commit --amend 			|= Modify your last commit message.
-git commit --fixup HEAD			|= Use commit and discard this commit's log message. (HEAD means to do this to the newest one).
+git commit -am				                  |= Create a commit with a message. (-a can be used instead of git add)
+git commit -m				                    |= Create a commit with a message.
+git commit --amend 			                |= Modify your last commit message.
+git commit --fixup HEAD			            |= Use commit and discard this commit's log message. (HEAD means to do this to the newest one).
 
-git revert HEAD				|= Goes back one commit.
-git reset --hard #First4Characters#	-|= Redo a commit... I think. can't find a good explanaition.
+git revert HEAD				                  |= Goes back one commit.
+git reset --hard #First4Characters#	   -|= Redo a commit... I think. can't find a good explanaition.
 
-git reflog --date=relative		|= Show time and Info about the changes done.
+git reflog --date=relative		          |= Show time and Info about the changes done.
+
+git checkout "#nameOfBranch"            |=Switch with branch you work on
 
 
 Well written about Rewriting History: https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History
